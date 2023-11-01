@@ -19,7 +19,7 @@
       community.docker.docker_login:
         registry_url: https://index.docker.io/v1/
         username: nokzeo
-        password: dckr_pat__ZF1IUNpW-bEoED-pLi1-OknNbo
+        password: dckr_pat__O_wkvzkYY8vb42hZ30Rw7EVc2s
 
     - name: Push image
       command: docker push nokzeo/petstore:latest
